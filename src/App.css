@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: whitesmoke;
   }
+  
+
+  .main-content {
+    flex: 1; 
+    overflow-y: auto; 
+  }
+  
+
+  .header {
+    position: relative;
+    top: 0;
+    z-index: 1000; 
+    display: flex;
+    justify-content: center; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slider{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; 
 }
 
-.App-link {
-  color: #61dafb;
+.slider img {
+    align-self: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    /* background-color: black;  */
+    z-index: 1000; 
+    background-image: linear-gradient(to right,  rgb(251 146 60), rgb(23 37 84));
   }
-  to {
-    transform: rotate(360deg);
+  
+
+  .room-search{
+    /* background-color: #003b95; */
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-}
+
+
+  .no-room-found-message {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+a:hover {
+    transform: scale(1.1);
+  }
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .not-found-container h1 {
+    font-size: 3rem;
+  }
+  
+  .not-found-container p {
+    font-size: 1.5rem;
+  }
+  
+  .active{
+    font-weight: bold;
+    color: orangered;
+  }
+  
+  

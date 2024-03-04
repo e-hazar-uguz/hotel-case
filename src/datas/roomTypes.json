@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "type": "Standart Oda",
+    "features": ["Çift kişilik yatak", "Televizyon", "Klima"],
+    "price": "$100",
+    "image_url": "https://adenyahotels.com.tr/upload/blog/otel-konaklamalarinda-suit-oda-ne-demek-071099.webp",
+    "location": "Ankara",
+    "breakfast_included": false
+  },
+  {
+    "id": 2,
+    "type": "Deluxe Oda",
+    "features": ["King boy yatak", "Jakuzi", "Balkon", "Ücretsiz WiFi"],
+    "price": "$150",
+    "image_url": "https://adenyahotels.com.tr/upload/blog/otel-konaklamalarinda-suit-oda-ne-demek-071099.webp",
+    "location": "İstanbul",
+    "breakfast_included": true
+  },
+  {
+    "id": 3,
+    "type": "Suit",
+    "features": ["Ayrı oturma odası", "Büyük balkon", "Deniz manzarası", "Ücretsiz kahvaltı"],
+    "price": "$250",
+    "image_url": "https://adenyahotels.com.tr/upload/blog/otel-konaklamalarinda-suit-oda-ne-demek-071099.webp",
+    "location": "Antalya",
+    "breakfast_included": true
+  },
+  {
+    "id": 4,
+    "type": "Aile Odası",
+    "features": ["2 çift kişilik yatak", "Özel banyo", "Mutfak", "Oturma odası"],
+    "price": "$200",
+    "image_url": "https://adenyahotels.com.tr/upload/blog/otel-konaklamalarinda-suit-oda-ne-demek-071099.webp",
+    "location": "İzmir",
+    "breakfast_included": false
+  },
+  {
+    "id": 5,
+    "type": "Tek Kişilik Oda",
+    "features": ["Tek kişilik yatak", "Masa", "Sandalye", "Ücretsiz WiFi"],
+    "price": "$80",
+    "image_url": "https://adenyahotels.com.tr/upload/blog/otel-konaklamalarinda-suit-oda-ne-demek-071099.webp",
+    "location": "Bodrum",
+    "breakfast_included": true
+  },
+  {
+    "id": 6,
+    "type": "Kral Dairesi",
+    "features": ["Özel havuz", "Geniş teras", "Spa", "Özel aşçı"],
+    "price": "$500",
+    "image_url": "https://adenyahotels.com.tr/upload/blog/otel-konaklamalarinda-suit-oda-ne-demek-071099.webp",
+    "location": "Marmaris",
+    "breakfast_included": true
+  },
+  {
+    "id": 7,
+    "type": "Lüks Suit",
+    "features": ["Özel jakuzi", "Şömine", "Panoramik manzara", "Butler hizmeti"],
+    "price": "$350",
+    "image_url": "https://adenyahotels.com.tr/upload/blog/otel-konaklamalarinda-suit-oda-ne-demek-071099.webp",
+    "location": "Alanya",
+    "breakfast_included": true
+  },
+  {
+    "id": 8,
+    "type": "Ekonomik Oda",
+    "features": ["Tek kişilik yatak", "Duş", "Ücretsiz kahvaltı"],
+    "price": "$70",
+    "image_url": "https://adenyahotels.com.tr/upload/blog/otel-konaklamalarinda-suit-oda-ne-demek-071099.webp",
+    "location": "Çeşme",
+    "breakfast_included": false
+  },
+  {
+    "id": 9,
+    "type": "Yalıtımlı Aile Odası",
+    "features": ["2 çift kişilik yatak", "Özel banyo", "Mutfak", "Oturma odası", "Deniz manzaralı balkon"],
+    "price": "$250",
+    "image_url": "https://adenyahotels.com.tr/upload/blog/otel-konaklamalarinda-suit-oda-ne-demek-071099.webp",
+    "location": "Kuşadası",
+    "breakfast_included": true
+  },
+  {
+    "id": 10,
+    "type": "Penthouse Dairesi",
+    "features": ["Çift kişilik yatak", "Özel havuz", "Manzara terası", "Sauna", "Ücretsiz minibar"],
+    "price": "$700",
+    "image_url": "https://adenyahotels.com.tr/upload/blog/otel-konaklamalarinda-suit-oda-ne-demek-071099.webp",
+    "location": "Side",
+    "breakfast_included": true
+  }
+]
